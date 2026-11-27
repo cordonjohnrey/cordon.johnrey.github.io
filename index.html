@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="John Rey Cordon’s portfolio in customer support, Outlook troubleshooting, Shopify support, and manual QA.">
+  <title>John Rey Cordon | Customer Support and QA</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --text: #102e50;
+      --muted: #435f7a;
+      --line: #d3e3f6;
+      --tint: #ecf5ff;
+      --light: #83c0ff;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; color: var(--text); background: #fff; line-height: 1.55; }
+    a { color: #145b9b; text-underline-offset: .2em; }
+    a:focus-visible, summary:focus-visible { outline: 3px solid #367fbd; outline-offset: 4px; }
+    .container { width: min(1100px, 100% - 48px); margin-inline: auto; }
+    .hero { background: linear-gradient(115deg, #123458, #184473); color: white; padding: 64px 0; }
+    .hero-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 56px; align-items: center; }
+    h1, h2, h3, p { margin: 0; }
+    h1 { font-size: clamp(2.65rem, 6.1vw, 4.65rem); letter-spacing: -.035em; line-height: 1.06; margin-bottom: 14px; }
+    h1 span { color: var(--light); }
+    .role { font-size: 1.28rem; font-weight: 700; line-height: 1.48; }
+    .intro { margin-top: 17px; max-width: 43rem; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+    .button { border: 1px solid #86a7ca; border-radius: 11px; color: #fff; font-weight: 700; text-decoration: none; padding: 12px 17px; }
+    .button.primary { background: white; border-color: white; color: #13385c; }
+    .button:hover { background: #295780; }
+    .button.primary:hover { background: #d9edff; }
+    .button:focus-visible { outline-color: var(--light); }
+    .facts { list-style: none; display: grid; gap: 12px; margin: 0; padding: 0; }
+    .facts li { background: #ffffff12; border: 1px solid #ffffff24; border-radius: 15px; padding: 17px; }
+    .facts strong { display: block; font-size: 1.5rem; line-height: 1.25; }
+    .facts span { display: block; margin-top: 3px; }
+    .section { padding: 53px 0; }
+    h2 { font-size: clamp(1.7rem, 3vw, 2rem); line-height: 1.2; margin-bottom: 15px; }
+    h3 { font-size: 1.17rem; }
+    .section-intro { color: var(--muted); margin-bottom: 24px; }
+    .skills-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+    .skills-card, .sample { border: 1px solid var(--line); border-radius: 16px; background: #fff; }
+    .skills-card { padding: 28px 22px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 0; padding: 0; list-style: none; }
+    .tags li { background: var(--tint); border: 1px solid var(--line); color: #184e82; border-radius: 30px; font-size: .875rem; font-weight: 700; padding: 7px 11px; }
+    .samples { background: #f6faff; }
+    .sample + .sample { margin-top: 12px; }
+    .sample summary { cursor: pointer; border-radius: 15px; padding: 17px 21px; font-size: 1.06rem; font-weight: 700; }
+    .sample summary:hover { background: #eef6ff; }
+    .sample[open] summary { border-radius: 15px 15px 0 0; border-bottom: 1px solid var(--line); }
+    .sample-copy { padding: 18px 22px 25px; overflow-wrap: anywhere; max-width: 52rem; }
+    .sample-copy > :first-child { margin-top: 0; }
+    .sample-copy > :last-child { margin-bottom: 0; }
+    .sample-copy h3 { margin: 23px 0 10px; }
+    .sample-copy p, .sample-copy ol { margin-block: 12px; }
+    .sample-copy blockquote { margin: 14px 0; padding: 4px 16px; border-left: 3px solid #a7cef2; background: #f6faff; }
+    .sample-copy td, .sample-copy th { padding: 7px 11px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+    .sample-copy table { width: 100%; border-collapse: collapse; }
+    .sample-copy th { background: var(--tint); }
+    footer { padding: 24px 0; color: var(--muted); border-top: 1px solid var(--line); }
+    @media (max-width: 780px) {
+      .hero { padding: 44px 0; }
+      .hero-grid { grid-template-columns: 1fr; gap: 30px; }
+      .facts { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .facts strong { font-size: 1.17rem; }
+      .section { padding: 38px 0; }
+    }
+    @media (max-width: 540px) {
+      .container { width: calc(100% - 32px); }
+      .facts, .skills-grid { grid-template-columns: 1fr; }
+      .sample-copy { padding-inline: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>John Rey <span>Cordon</span></h1>
+        <p class="role">Customer and Technical Support Specialist<br>Manual QA Tester</p>
+        <p class="intro">I’ve handled orders, shipping, subscriptions, and refunds over email and chat, including on Shopify. I’ve also helped Microsoft Outlook users troubleshoot app issues and documented fixes for problems that kept coming up.</p>
+        <div class="actions">
+          <a class="button primary" href="resume.pdf" download="John-Rey-Cordon-Resume.pdf">Download Resume</a>
+          <a class="button" href="https://www.linkedin.com/in/johnreycordon/">Contact Me</a>
+        </div>
+      </div>
+      <ul class="facts" aria-label="Experience at a glance">
+        <li><strong>About 6 Years</strong><span>Customer and Technical Support</span></li>
+        <li><strong>3+ Years</strong><span>Manual Quality Assurance</span></li>
+        <li><strong>Web, Mobile, API</strong><span>Testing Coverage</span></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <section class="section" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 id="skills-heading">What I Bring</h2>
+        <div class="skills-grid">
+          <article class="skills-card">
+            <h3>Customer and Technical Support</h3>
+            <ul class="tags">
+              <li>Email and Live Chat</li><li>Shopify</li><li>Outlook</li><li>Orders and Shipping</li><li>Refunds</li><li>Subscriptions</li><li>Zendesk</li><li>Intercom</li><li>Helpshift</li><li>Zoho</li>
+            </ul>
+          </article>
+          <article class="skills-card">
+            <h3>Manual QA and Testing</h3>
+            <ul class="tags">
+              <li>Functional Testing</li><li>Regression Testing</li><li>Smoke Testing</li><li>Cross-Browser Testing</li><li>API Testing</li><li>Jira Bug Reports</li><li>Postman</li><li>Fix Verification</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section samples" aria-labelledby="samples-heading">
+      <div class="container">
+        <h2 id="samples-heading">Work Samples</h2>
+        <p class="section-intro">These practice scenarios show how I reply to customers, document troubleshooting, and write a bug report.</p>
+        <details class="sample"><summary>Customer Support Replies</summary><div class="sample-copy"><p>These practice scenarios use fictional orders and customer details.</p>
+<h3>Late package | Email</h3>
+<p><strong>Customer</strong></p>
+<blockquote>
+<p>Hi, order #1048 was supposed to arrive yesterday. The tracking hasn’t moved since Monday. Is my package lost?</p>
+</blockquote>
+<p><strong>What I checked</strong></p>
+<p>The carrier picked up the package Monday. The estimated delivery date has passed, and there’s no newer scan. In this scenario, I’ve asked the shipping team to follow up with the carrier.</p>
+<p><strong>Reply</strong></p>
+<blockquote>
+<p>Hi Mia,</p>
+<p>I checked order #1048. The last scan was when the carrier picked it up on Monday. It’s past the expected delivery date, so I’ve asked our shipping team to check with the carrier.</p>
+<p>I’ll email you by 3 p.m. Eastern tomorrow, even if we’re still waiting for an update. I’ll keep this open so you don’t have to start over with someone else.</p>
+<p>Thanks,<br>John</p>
+</blockquote>
+<h3>Subscription renewal refund | Live chat</h3>
+<p><strong>Customer</strong></p>
+<blockquote>
+<p>I got charged for another box this morning. Can I cancel it and get my money back?</p>
+</blockquote>
+<p><strong>What I checked</strong></p>
+<p>The renewal order hasn’t shipped. In this scenario, the customer confirmed they wanted to cancel both the order and future renewals. The store allows a refund before shipment, and the refund has been issued.</p>
+<p><strong>Reply</strong></p>
+<blockquote>
+<p>Hi Alex! I canceled today’s order and turned off future renewals. I’ve also issued the refund to the card you used. It can take a few business days to show up, depending on your bank. You’ll get an email confirmation for your records.</p>
+</blockquote>
+</div></details>
+<details class="sample"><summary>Outlook Troubleshooting Guide</summary><div class="sample-copy"><p>In this practice scenario, a user says their Outlook inbox stopped updating this morning. I’d start by checking whether the same account receives mail in the browser. That gives me somewhere to look before asking the user to change anything.</p>
+<h3>What I’d check</h3>
+<ol>
+<li>Confirm the user is in <strong>classic Outlook for Windows</strong> and has the same mailbox open in both Outlook and webmail. The steps below are for classic Outlook.</li>
+<li>Ask them to check webmail for a recent message. If there’s no recent message to use, ask them to send a test email from another account they control.</li>
+<li>If the test email arrives in webmail, check the status at the bottom of the Outlook window. If it says <strong>Working Offline</strong>, go to <strong>Send/Receive</strong> and select <strong>Work Offline</strong> to reconnect. Then check whether the same test message appears in the app. <a href="https://support.microsoft.com/en-us/outlook/getstarted/how-to-work-offline-in-outlook-for-windows">Microsoft’s guide to working offline in Outlook</a></li>
+<li>If mail is missing in webmail too, check whether it affects every sender or just one. For a single missing message, ask the user to search by sender and check Junk Email. <a href="https://support.microsoft.com/en-us/outlook/email-is-missing-from-your-outlook-com-inbox">Microsoft’s guide to missing Outlook.com email</a></li>
+</ol>
+<h3>What I’d send the user</h3>
+<blockquote>
+<p>Hi Sam, could you open the same mailbox in your browser and check if today’s emails are there? If you see them, please tell me what it says at the bottom of your Outlook window. If it says <strong>Working Offline</strong>, click <strong>Send/Receive</strong>, then <strong>Work Offline</strong> to reconnect. Leave Outlook open and check whether the missing messages start coming in.</p>
+</blockquote>
+<h3>What I’d include if I escalate</h3>
+<p>I’d record the Outlook version, when the problem started, whether the test email arrived in webmail, the app’s connection status, and the result of each step. If there’s an error, I’d include the exact wording with any private details removed. That gives the next person enough information to pick up the case.</p>
+</div></details>
+<details class="sample"><summary>Sample QA Bug Report</summary><div class="sample-copy"><p>This is a practice bug report for a fictional e-commerce app. The environment and results are simulated.</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ID</td>
+<td>DEMO-014</td>
+</tr>
+<tr>
+<td>Area</td>
+<td>Account settings</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Demo staging build 0.4.2, Chrome on Windows 11</td>
+</tr>
+<tr>
+<td>Frequency</td>
+<td>3 out of 3 attempts with the same test account</td>
+</tr>
+<tr>
+<td>Suggested severity</td>
+<td>Medium. Customers can’t reliably update an email preference.</td>
+</tr>
+</tbody></table>
+<h3>Steps to reproduce</h3>
+<ol>
+<li>Sign in to a test account with <strong>Product updates</strong> turned on.</li>
+<li>Open <strong>Account → Email preferences</strong>.</li>
+<li>Turn <strong>Product updates</strong> off and click <strong>Save changes</strong>.</li>
+<li>Wait for the “Preferences saved” message, then reload the page.</li>
+<li>Check the <strong>Product updates</strong> toggle.</li>
+</ol>
+<h3>Expected result</h3>
+<p><strong>Product updates</strong> stays off after reloading the page.</p>
+<h3>Actual result</h3>
+<p>The app says “Preferences saved,” but <strong>Product updates</strong> is back on after reload. The test only confirmed what the settings page displays. Whether product emails would still be sent needs a separate check.</p>
+<h3>Retest after the fix</h3>
+<p>Save the preference as off, then reload the page and sign out and back in to confirm it stays off. Turn it on again and repeat the check to verify the setting saves both ways.</p>
+</div></details>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container">John Rey Cordon · Silang, Cavite, Philippines</div></footer>
+</body>
+</html>
